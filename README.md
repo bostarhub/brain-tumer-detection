@@ -23,7 +23,7 @@ The dataset used in this project is sourced from Kaggle, containing 300 MRI imag
 ## Installation
 To get started with the project, follow these steps to clone the repository and install the required packages:
 
-git clone https://github.com/yourusername/brain-tumor-detection.git
+git clone https://github.com/ishratjahan06/brain-tumor-detection.git
 cd brain-tumor-detection
 pip install -r requirements.txt
 
