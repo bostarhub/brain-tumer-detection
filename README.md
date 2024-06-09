@@ -6,6 +6,7 @@ This repository contains a project aimed at detecting brain tumors from MRI imag
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
+- [Setting Up the Dataset](#dataset)
 - [Installation](#installation)
 - [Model Architecture](#model-architecture)
 - [Training](#training)
@@ -18,7 +19,14 @@ This repository contains a project aimed at detecting brain tumors from MRI imag
 Brain tumor detection is a crucial task in medical imaging. This project uses deep learning techniques to classify MRI images into two categories: `tumor` and `no tumor`. The goal is to assist medical professionals in diagnosing brain tumors with higher accuracy and efficiency.
 
 ## Dataset
-The dataset used in this project is sourced from Kaggle, containing 300 MRI images. The dataset is split into training and validation sets to ensure the model is trained effectively and its performance is validated. Below is a sample image from the dataset:
+The dataset used in this project is sourced from Kaggle, containing 300 MRI images. The dataset is split into training and validation sets to ensure the model is trained effectively and its performance is validated.
+
+## Setting Up the Dataset
+After cloning the repository, create a new folder named "Dataset" in the project directory. Inside the "Dataset" folder, organize your data as follows:
+- Create subfolders named "yes" and "no" for tumor and non-tumor images, respectively.
+- Place your MRI images in their corresponding folders.
+- Open the Jupyter Notebook `brain_tumor_detection.ipynb` using Jupyter Notebook or JupyterLab. Ensure that you have installed Jupyter Notebook as part of the requirements.
+Run each cell sequentially to train the model, evaluate its performance, and make predictions.
 
 ## Installation
 To get started with the project, follow these steps to clone the repository and install the required packages:
